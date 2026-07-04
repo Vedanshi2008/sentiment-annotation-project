@@ -74,14 +74,3 @@ Accepted label values are `Positive`, `Negative`, and `Neutral`. Missing labels 
 
 This project is static and can be deployed on GitHub Pages, Netlify, Vercel, or any static hosting service. Keep all files in the same folder so `index.html` can load the CSV, CSS, and JavaScript assets.
 
-## Portfolio Positioning
-
-This project demonstrates practical AI data work:
-
-- Dataset preparation
-- Sentiment taxonomy design
-- Annotation workflow UX
-- Label quality statistics
-- CSV import/export handling
-- Browser-based state management
-- Dashboard and reporting features
