@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SentimentLab | Annotation Workspace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <a class="brand" href="#dashboard" data-view-link="dashboard">
+        <span class="brand-mark"><i class="fa-solid fa-tags"></i></span>
+        <span>
+          <strong>SentimentLab</strong>
+          <small>Annotation Suite</small>
+        </span>
+      </a>
+
+      <nav class="nav-list">
+        <a href="#dashboard" class="nav-link active" data-view-link="dashboard"><i class="fa-solid fa-chart-pie"></i><span>Dashboard</span></a>
+        <a href="#annotate" class="nav-link" data-view-link="annotate"><i class="fa-solid fa-pen-to-square"></i><span>Annotate</span></a>
+        <a href="#statistics" class="nav-link" data-view-link="statistics"><i class="fa-solid fa-chart-column"></i><span>Statistics</span></a>
+        <a href="#guidelines" class="nav-link" data-view-link="guidelines"><i class="fa-solid fa-book-open"></i><span>Guidelines</span></a>
+        <a href="#admin" class="nav-link" data-view-link="admin"><i class="fa-solid fa-sliders"></i><span>Admin</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <p class="eyebrow">Project Health</p>
+        <div class="progress-ring">
+          <span id="completionRate">0%</span>
+          <small>completed</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <header class="topbar">
+        <button class="icon-button mobile-menu" id="mobileMenuBtn" type="button" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+        <div>
+          <p class="eyebrow">AI Data Annotation Portfolio</p>
+          <h1>Sentiment Annotation Workspace</h1>
+        </div>
+        <div class="topbar-actions">
+          <label class="upload-button" for="csvUpload"><i class="fa-solid fa-file-arrow-up"></i><span>Upload CSV</span></label>
+          <input id="csvUpload" type="file" accept=".csv,text/csv">
+          <button class="primary-button" id="exportBtn" type="button"><i class="fa-solid fa-download"></i><span>Export</span></button>
+          <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+        </div>
+      </header>
+
+      <section class="view active" id="dashboard" data-view="dashboard">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>Dataset dashboard</h2>
+          </div>
+          <div class="status-pill"><i class="fa-solid fa-floppy-disk"></i><span id="saveStatus">Auto-saved</span></div>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card positive">
+            <span class="stat-icon"><i class="fa-solid fa-face-smile"></i></span>
+            <div><small>Positive</small><strong id="positiveCount">0</strong></div>
+          </article>
+          <article class="stat-card negative">
+            <span class="stat-icon"><i class="fa-solid fa-face-frown"></i></span>
+            <div><small>Negative</small><strong id="negativeCount">0</strong></div>
+          </article>
+          <article class="stat-card neutral">
+            <span class="stat-icon"><i class="fa-solid fa-circle-minus"></i></span>
+            <div><small>Neutral</small><strong id="neutralCount">0</strong></div>
+          </article>
+          <article class="stat-card">
+            <span class="stat-icon"><i class="fa-solid fa-database"></i></span>
+            <div><small>Total Rows</small><strong id="totalCount">0</strong></div>
+          </article>
+        </div>
+
+        <div class="dashboard-grid">
+          <section class="panel chart-panel">
+            <div class="panel-header">
+              <h3>Sentiment split</h3>
+              <button class="ghost-button" type="button" data-view-link="statistics">Details</button>
+            </div>
+            <div class="chart-wrap"><canvas id="sentimentPie"></canvas></div>
+          </section>
+          <section class="panel chart-panel">
+            <div class="panel-header">
+              <h3>Annotation volume</h3>
+              <span class="muted" id="datasetName">annotated_sentences.csv</span>
+            </div>
+            <div class="chart-wrap"><canvas id="sentimentBar"></canvas></div>
+          </section>
+        </div>
+
+        <section class="panel activity-panel">
+          <div class="panel-header">
+            <h3>Recent annotation activity</h3>
+            <button class="ghost-button" type="button" data-view-link="annotate">Open tool</button>
+          </div>
+          <div id="activityList" class="activity-list"></div>
+        </section>
+      </section>
+
+      <section class="view" id="annotate" data-view="annotate">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Workspace</p>
+            <h2>Annotation tool</h2>
+          </div>
+          <div class="keyboard-actions">
+            <button class="seg-button" type="button" data-quick-label="Positive">Positive</button>
+            <button class="seg-button" type="button" data-quick-label="Negative">Negative</button>
+            <button class="seg-button" type="button" data-quick-label="Neutral">Neutral</button>
+          </div>
+        </div>
+
+        <div class="tool-grid">
+          <section class="panel annotation-panel">
+            <div class="sentence-meta">
+              <span id="currentPosition">Sentence 1 of 0</span>
+              <span id="currentLabel" class="label-chip unlabelled">Unlabelled</span>
+            </div>
+            <p id="sentenceText" class="sentence-text">Load a dataset to begin annotating.</p>
+            <div class="label-actions">
+              <button class="label-button positive" type="button" data-label="Positive"><i class="fa-solid fa-face-smile"></i><span>Positive</span></button>
+              <button class="label-button negative" type="button" data-label="Negative"><i class="fa-solid fa-face-frown"></i><span>Negative</span></button>
+              <button class="label-button neutral" type="button" data-label="Neutral"><i class="fa-solid fa-circle-minus"></i><span>Neutral</span></button>
+            </div>
+            <div class="annotation-nav">
+              <button class="secondary-button" id="prevBtn" type="button"><i class="fa-solid fa-arrow-left"></i><span>Previous</span></button>
+              <button class="secondary-button" id="nextBtn" type="button"><span>Next</span><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </section>
+
+          <section class="panel queue-panel">
+            <div class="panel-header">
+              <h3>Queue controls</h3>
+              <button class="ghost-button" id="resetFiltersBtn" type="button">Reset</button>
+            </div>
+            <div class="control-stack">
+              <label class="field">
+                <span>Search</span>
+                <input id="searchInput" type="search" placeholder="Find sentences, IDs, labels">
+              </label>
+              <label class="field">
+                <span>Sentiment filter</span>
+                <select id="filterSelect">
+                  <option value="All">All labels</option>
+                  <option value="Positive">Positive</option>
+                  <option value="Negative">Negative</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Unlabelled">Unlabelled</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Rows per page</span>
+                <select id="pageSizeSelect">
+                  <option>10</option>
+                  <option selected>20</option>
+                  <option>50</option>
+                  <option>100</option>
+                </select>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <section class="panel table-panel">
+          <div class="panel-header">
+            <h3>Sentence table</h3>
+            <span class="muted" id="tableSummary">0 rows</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Sentence</th>
+                  <th>Label</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="sentenceTable"></tbody>
+            </table>
+          </div>
+          <div class="pagination">
+            <button class="icon-button" id="pagePrevBtn" type="button" aria-label="Previous page"><i class="fa-solid fa-chevron-left"></i></button>
+            <span id="pageInfo">Page 1 of 1</span>
+            <button class="icon-button" id="pageNextBtn" type="button" aria-label="Next page"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="statistics" data-view="statistics">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Analytics</p>
+            <h2>Statistics page</h2>
+          </div>
+          <button class="secondary-button" id="copyReportBtn" type="button"><i class="fa-solid fa-copy"></i><span>Copy report</span></button>
+        </div>
+        <div class="insight-grid">
+          <section class="panel">
+            <h3>Quality snapshot</h3>
+            <dl class="metric-list">
+              <div><dt>Completion</dt><dd id="metricCompletion">0%</dd></div>
+              <div><dt>Unlabelled</dt><dd id="metricUnlabelled">0</dd></div>
+              <div><dt>Longest sentence</dt><dd id="metricLongest">0 chars</dd></div>
+              <div><dt>Average length</dt><dd id="metricAverage">0 chars</dd></div>
+            </dl>
+          </section>
+          <section class="panel">
+            <h3>Label balance</h3>
+            <div id="balanceBars" class="balance-bars"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="guidelines" data-view="guidelines">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Documentation</p>
+            <h2>Annotation guidelines</h2>
+          </div>
+        </div>
+        <div class="guideline-grid">
+          <article class="panel guideline-card positive">
+            <h3>Positive</h3>
+            <p>Use when the sentence expresses praise, delight, satisfaction, recommendation, relief, or clear approval.</p>
+            <strong>Example</strong>
+            <span>I love this feature because it saves time.</span>
+          </article>
+          <article class="panel guideline-card negative">
+            <h3>Negative</h3>
+            <p>Use when the sentence expresses complaint, frustration, disappointment, warning, failure, or clear criticism.</p>
+            <strong>Example</strong>
+            <span>The app crashed twice and support never replied.</span>
+          </article>
+          <article class="panel guideline-card neutral">
+            <h3>Neutral</h3>
+            <p>Use for factual, descriptive, mixed, unclear, or non-emotional statements without a dominant sentiment.</p>
+            <strong>Example</strong>
+            <span>The package was delivered on Tuesday afternoon.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="admin" data-view="admin">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Controls</p>
+            <h2>Admin panel</h2>
+          </div>
+        </div>
+        <div class="admin-grid">
+          <section class="panel">
+            <h3>Dataset actions</h3>
+            <div class="admin-actions">
+              <button class="secondary-button" id="loadSampleBtn" type="button"><i class="fa-solid fa-rotate"></i><span>Reload sample</span></button>
+              <button class="secondary-button danger" id="clearStorageBtn" type="button"><i class="fa-solid fa-trash-can"></i><span>Clear local save</span></button>
+              <button class="secondary-button" id="downloadRawBtn" type="button"><i class="fa-solid fa-file-csv"></i><span>Export raw CSV</span></button>
+            </div>
+          </section>
+          <section class="panel">
+            <h3>Optional login mock</h3>
+            <form id="loginForm" class="login-form">
+              <label class="field"><span>Name</span><input id="loginName" type="text" placeholder="Annotator name"></label>
+              <label class="field"><span>Role</span><select id="loginRole"><option>AI Data Annotator</option><option>Reviewer</option><option>Admin</option></select></label>
+              <button class="primary-button" type="submit"><i class="fa-solid fa-user-check"></i><span>Save profile</span></button>
+            </form>
+            <p class="muted" id="profileText">No profile saved.</p>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast-area" id="toastArea" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

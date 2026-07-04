@@ -1,0 +1,501 @@
+﻿id,text,label
+1,I love how easy this product is to use. Case 1.,Positive
+2,The app crashed before I could finish my work. Case 2.,Negative
+3,The order was delivered yesterday afternoon. Case 3.,Neutral
+4,The support team answered quickly and fixed my issue. Case 4.,Positive
+5,Customer support did not respond to my complaint. Case 5.,Negative
+6,The account was created using an email address. Case 6.,Neutral
+7,The dashboard feels fast, polished, and reliable. Case 7.,Positive
+8,The product stopped working after one day. Case 8.,Negative
+9,The user opened the settings page at noon. Case 9.,Neutral
+10,This feature saves me time every single day. Case 10.,Positive
+11,The checkout process was confusing and slow. Case 11.,Negative
+12,The file contains three columns and one header row. Case 12.,Neutral
+13,The package arrived early and everything worked perfectly. Case 13.,Positive
+14,The delivery was late and the box was damaged. Case 14.,Negative
+15,The meeting is scheduled for Friday morning. Case 15.,Neutral
+16,I would happily recommend this service to my team. Case 16.,Positive
+17,I am disappointed with the poor battery life. Case 17.,Negative
+18,The device is available in black and silver. Case 18.,Neutral
+19,The latest update made the workflow much smoother. Case 19.,Positive
+20,The report exported with missing information. Case 20.,Negative
+21,The invoice was generated after the purchase. Case 21.,Neutral
+22,The instructions were clear and the result was excellent. Case 22.,Positive
+23,The interface froze several times during review. Case 23.,Negative
+24,The dataset includes product and support messages. Case 24.,Neutral
+25,I love how easy this product is to use. Case 25.,Positive
+26,The app crashed before I could finish my work. Case 26.,Negative
+27,The order was delivered yesterday afternoon. Case 27.,Neutral
+28,The support team answered quickly and fixed my issue. Case 28.,Positive
+29,Customer support did not respond to my complaint. Case 29.,Negative
+30,The account was created using an email address. Case 30.,Neutral
+31,The dashboard feels fast, polished, and reliable. Case 31.,Positive
+32,The product stopped working after one day. Case 32.,Negative
+33,The user opened the settings page at noon. Case 33.,Neutral
+34,This feature saves me time every single day. Case 34.,Positive
+35,The checkout process was confusing and slow. Case 35.,Negative
+36,The file contains three columns and one header row. Case 36.,Neutral
+37,The package arrived early and everything worked perfectly. Case 37.,Positive
+38,The delivery was late and the box was damaged. Case 38.,Negative
+39,The meeting is scheduled for Friday morning. Case 39.,Neutral
+40,I would happily recommend this service to my team. Case 40.,Positive
+41,I am disappointed with the poor battery life. Case 41.,Negative
+42,The device is available in black and silver. Case 42.,Neutral
+43,The latest update made the workflow much smoother. Case 43.,Positive
+44,The report exported with missing information. Case 44.,Negative
+45,The invoice was generated after the purchase. Case 45.,Neutral
+46,The instructions were clear and the result was excellent. Case 46.,Positive
+47,The interface froze several times during review. Case 47.,Negative
+48,The dataset includes product and support messages. Case 48.,Neutral
+49,I love how easy this product is to use. Case 49.,Positive
+50,The app crashed before I could finish my work. Case 50.,Negative
+51,The order was delivered yesterday afternoon. Case 51.,Neutral
+52,The support team answered quickly and fixed my issue. Case 52.,Positive
+53,Customer support did not respond to my complaint. Case 53.,Negative
+54,The account was created using an email address. Case 54.,Neutral
+55,The dashboard feels fast, polished, and reliable. Case 55.,Positive
+56,The product stopped working after one day. Case 56.,Negative
+57,The user opened the settings page at noon. Case 57.,Neutral
+58,This feature saves me time every single day. Case 58.,Positive
+59,The checkout process was confusing and slow. Case 59.,Negative
+60,The file contains three columns and one header row. Case 60.,Neutral
+61,The package arrived early and everything worked perfectly. Case 61.,Positive
+62,The delivery was late and the box was damaged. Case 62.,Negative
+63,The meeting is scheduled for Friday morning. Case 63.,Neutral
+64,I would happily recommend this service to my team. Case 64.,Positive
+65,I am disappointed with the poor battery life. Case 65.,Negative
+66,The device is available in black and silver. Case 66.,Neutral
+67,The latest update made the workflow much smoother. Case 67.,Positive
+68,The report exported with missing information. Case 68.,Negative
+69,The invoice was generated after the purchase. Case 69.,Neutral
+70,The instructions were clear and the result was excellent. Case 70.,Positive
+71,The interface froze several times during review. Case 71.,Negative
+72,The dataset includes product and support messages. Case 72.,Neutral
+73,I love how easy this product is to use. Case 73.,Positive
+74,The app crashed before I could finish my work. Case 74.,Negative
+75,The order was delivered yesterday afternoon. Case 75.,Neutral
+76,The support team answered quickly and fixed my issue. Case 76.,Positive
+77,Customer support did not respond to my complaint. Case 77.,Negative
+78,The account was created using an email address. Case 78.,Neutral
+79,The dashboard feels fast, polished, and reliable. Case 79.,Positive
+80,The product stopped working after one day. Case 80.,Negative
+81,The user opened the settings page at noon. Case 81.,Neutral
+82,This feature saves me time every single day. Case 82.,Positive
+83,The checkout process was confusing and slow. Case 83.,Negative
+84,The file contains three columns and one header row. Case 84.,Neutral
+85,The package arrived early and everything worked perfectly. Case 85.,Positive
+86,The delivery was late and the box was damaged. Case 86.,Negative
+87,The meeting is scheduled for Friday morning. Case 87.,Neutral
+88,I would happily recommend this service to my team. Case 88.,Positive
+89,I am disappointed with the poor battery life. Case 89.,Negative
+90,The device is available in black and silver. Case 90.,Neutral
+91,The latest update made the workflow much smoother. Case 91.,Positive
+92,The report exported with missing information. Case 92.,Negative
+93,The invoice was generated after the purchase. Case 93.,Neutral
+94,The instructions were clear and the result was excellent. Case 94.,Positive
+95,The interface froze several times during review. Case 95.,Negative
+96,The dataset includes product and support messages. Case 96.,Neutral
+97,I love how easy this product is to use. Case 97.,Positive
+98,The app crashed before I could finish my work. Case 98.,Negative
+99,The order was delivered yesterday afternoon. Case 99.,Neutral
+100,The support team answered quickly and fixed my issue. Case 100.,Positive
+101,Customer support did not respond to my complaint. Case 101.,Negative
+102,The account was created using an email address. Case 102.,Neutral
+103,The dashboard feels fast, polished, and reliable. Case 103.,Positive
+104,The product stopped working after one day. Case 104.,Negative
+105,The user opened the settings page at noon. Case 105.,Neutral
+106,This feature saves me time every single day. Case 106.,Positive
+107,The checkout process was confusing and slow. Case 107.,Negative
+108,The file contains three columns and one header row. Case 108.,Neutral
+109,The package arrived early and everything worked perfectly. Case 109.,Positive
+110,The delivery was late and the box was damaged. Case 110.,Negative
+111,The meeting is scheduled for Friday morning. Case 111.,Neutral
+112,I would happily recommend this service to my team. Case 112.,Positive
+113,I am disappointed with the poor battery life. Case 113.,Negative
+114,The device is available in black and silver. Case 114.,Neutral
+115,The latest update made the workflow much smoother. Case 115.,Positive
+116,The report exported with missing information. Case 116.,Negative
+117,The invoice was generated after the purchase. Case 117.,Neutral
+118,The instructions were clear and the result was excellent. Case 118.,Positive
+119,The interface froze several times during review. Case 119.,Negative
+120,The dataset includes product and support messages. Case 120.,Neutral
+121,I love how easy this product is to use. Case 121.,Positive
+122,The app crashed before I could finish my work. Case 122.,Negative
+123,The order was delivered yesterday afternoon. Case 123.,Neutral
+124,The support team answered quickly and fixed my issue. Case 124.,Positive
+125,Customer support did not respond to my complaint. Case 125.,Negative
+126,The account was created using an email address. Case 126.,Neutral
+127,The dashboard feels fast, polished, and reliable. Case 127.,Positive
+128,The product stopped working after one day. Case 128.,Negative
+129,The user opened the settings page at noon. Case 129.,Neutral
+130,This feature saves me time every single day. Case 130.,Positive
+131,The checkout process was confusing and slow. Case 131.,Negative
+132,The file contains three columns and one header row. Case 132.,Neutral
+133,The package arrived early and everything worked perfectly. Case 133.,Positive
+134,The delivery was late and the box was damaged. Case 134.,Negative
+135,The meeting is scheduled for Friday morning. Case 135.,Neutral
+136,I would happily recommend this service to my team. Case 136.,Positive
+137,I am disappointed with the poor battery life. Case 137.,Negative
+138,The device is available in black and silver. Case 138.,Neutral
+139,The latest update made the workflow much smoother. Case 139.,Positive
+140,The report exported with missing information. Case 140.,Negative
+141,The invoice was generated after the purchase. Case 141.,Neutral
+142,The instructions were clear and the result was excellent. Case 142.,Positive
+143,The interface froze several times during review. Case 143.,Negative
+144,The dataset includes product and support messages. Case 144.,Neutral
+145,I love how easy this product is to use. Case 145.,Positive
+146,The app crashed before I could finish my work. Case 146.,Negative
+147,The order was delivered yesterday afternoon. Case 147.,Neutral
+148,The support team answered quickly and fixed my issue. Case 148.,Positive
+149,Customer support did not respond to my complaint. Case 149.,Negative
+150,The account was created using an email address. Case 150.,Neutral
+151,The dashboard feels fast, polished, and reliable. Case 151.,Positive
+152,The product stopped working after one day. Case 152.,Negative
+153,The user opened the settings page at noon. Case 153.,Neutral
+154,This feature saves me time every single day. Case 154.,Positive
+155,The checkout process was confusing and slow. Case 155.,Negative
+156,The file contains three columns and one header row. Case 156.,Neutral
+157,The package arrived early and everything worked perfectly. Case 157.,Positive
+158,The delivery was late and the box was damaged. Case 158.,Negative
+159,The meeting is scheduled for Friday morning. Case 159.,Neutral
+160,I would happily recommend this service to my team. Case 160.,Positive
+161,I am disappointed with the poor battery life. Case 161.,Negative
+162,The device is available in black and silver. Case 162.,Neutral
+163,The latest update made the workflow much smoother. Case 163.,Positive
+164,The report exported with missing information. Case 164.,Negative
+165,The invoice was generated after the purchase. Case 165.,Neutral
+166,The instructions were clear and the result was excellent. Case 166.,Positive
+167,The interface froze several times during review. Case 167.,Negative
+168,The dataset includes product and support messages. Case 168.,Neutral
+169,I love how easy this product is to use. Case 169.,Positive
+170,The app crashed before I could finish my work. Case 170.,Negative
+171,The order was delivered yesterday afternoon. Case 171.,Neutral
+172,The support team answered quickly and fixed my issue. Case 172.,Positive
+173,Customer support did not respond to my complaint. Case 173.,Negative
+174,The account was created using an email address. Case 174.,Neutral
+175,The dashboard feels fast, polished, and reliable. Case 175.,Positive
+176,The product stopped working after one day. Case 176.,Negative
+177,The user opened the settings page at noon. Case 177.,Neutral
+178,This feature saves me time every single day. Case 178.,Positive
+179,The checkout process was confusing and slow. Case 179.,Negative
+180,The file contains three columns and one header row. Case 180.,Neutral
+181,The package arrived early and everything worked perfectly. Case 181.,Positive
+182,The delivery was late and the box was damaged. Case 182.,Negative
+183,The meeting is scheduled for Friday morning. Case 183.,Neutral
+184,I would happily recommend this service to my team. Case 184.,Positive
+185,I am disappointed with the poor battery life. Case 185.,Negative
+186,The device is available in black and silver. Case 186.,Neutral
+187,The latest update made the workflow much smoother. Case 187.,Positive
+188,The report exported with missing information. Case 188.,Negative
+189,The invoice was generated after the purchase. Case 189.,Neutral
+190,The instructions were clear and the result was excellent. Case 190.,Positive
+191,The interface froze several times during review. Case 191.,Negative
+192,The dataset includes product and support messages. Case 192.,Neutral
+193,I love how easy this product is to use. Case 193.,Positive
+194,The app crashed before I could finish my work. Case 194.,Negative
+195,The order was delivered yesterday afternoon. Case 195.,Neutral
+196,The support team answered quickly and fixed my issue. Case 196.,Positive
+197,Customer support did not respond to my complaint. Case 197.,Negative
+198,The account was created using an email address. Case 198.,Neutral
+199,The dashboard feels fast, polished, and reliable. Case 199.,Positive
+200,The product stopped working after one day. Case 200.,Negative
+201,The user opened the settings page at noon. Case 201.,Neutral
+202,This feature saves me time every single day. Case 202.,Positive
+203,The checkout process was confusing and slow. Case 203.,Negative
+204,The file contains three columns and one header row. Case 204.,Neutral
+205,The package arrived early and everything worked perfectly. Case 205.,Positive
+206,The delivery was late and the box was damaged. Case 206.,Negative
+207,The meeting is scheduled for Friday morning. Case 207.,Neutral
+208,I would happily recommend this service to my team. Case 208.,Positive
+209,I am disappointed with the poor battery life. Case 209.,Negative
+210,The device is available in black and silver. Case 210.,Neutral
+211,The latest update made the workflow much smoother. Case 211.,Positive
+212,The report exported with missing information. Case 212.,Negative
+213,The invoice was generated after the purchase. Case 213.,Neutral
+214,The instructions were clear and the result was excellent. Case 214.,Positive
+215,The interface froze several times during review. Case 215.,Negative
+216,The dataset includes product and support messages. Case 216.,Neutral
+217,I love how easy this product is to use. Case 217.,Positive
+218,The app crashed before I could finish my work. Case 218.,Negative
+219,The order was delivered yesterday afternoon. Case 219.,Neutral
+220,The support team answered quickly and fixed my issue. Case 220.,Positive
+221,Customer support did not respond to my complaint. Case 221.,Negative
+222,The account was created using an email address. Case 222.,Neutral
+223,The dashboard feels fast, polished, and reliable. Case 223.,Positive
+224,The product stopped working after one day. Case 224.,Negative
+225,The user opened the settings page at noon. Case 225.,Neutral
+226,This feature saves me time every single day. Case 226.,Positive
+227,The checkout process was confusing and slow. Case 227.,Negative
+228,The file contains three columns and one header row. Case 228.,Neutral
+229,The package arrived early and everything worked perfectly. Case 229.,Positive
+230,The delivery was late and the box was damaged. Case 230.,Negative
+231,The meeting is scheduled for Friday morning. Case 231.,Neutral
+232,I would happily recommend this service to my team. Case 232.,Positive
+233,I am disappointed with the poor battery life. Case 233.,Negative
+234,The device is available in black and silver. Case 234.,Neutral
+235,The latest update made the workflow much smoother. Case 235.,Positive
+236,The report exported with missing information. Case 236.,Negative
+237,The invoice was generated after the purchase. Case 237.,Neutral
+238,The instructions were clear and the result was excellent. Case 238.,Positive
+239,The interface froze several times during review. Case 239.,Negative
+240,The dataset includes product and support messages. Case 240.,Neutral
+241,I love how easy this product is to use. Case 241.,Positive
+242,The app crashed before I could finish my work. Case 242.,Negative
+243,The order was delivered yesterday afternoon. Case 243.,Neutral
+244,The support team answered quickly and fixed my issue. Case 244.,Positive
+245,Customer support did not respond to my complaint. Case 245.,Negative
+246,The account was created using an email address. Case 246.,Neutral
+247,The dashboard feels fast, polished, and reliable. Case 247.,Positive
+248,The product stopped working after one day. Case 248.,Negative
+249,The user opened the settings page at noon. Case 249.,Neutral
+250,This feature saves me time every single day. Case 250.,Positive
+251,The checkout process was confusing and slow. Case 251.,Negative
+252,The file contains three columns and one header row. Case 252.,Neutral
+253,The package arrived early and everything worked perfectly. Case 253.,Positive
+254,The delivery was late and the box was damaged. Case 254.,Negative
+255,The meeting is scheduled for Friday morning. Case 255.,Neutral
+256,I would happily recommend this service to my team. Case 256.,Positive
+257,I am disappointed with the poor battery life. Case 257.,Negative
+258,The device is available in black and silver. Case 258.,Neutral
+259,The latest update made the workflow much smoother. Case 259.,Positive
+260,The report exported with missing information. Case 260.,Negative
+261,The invoice was generated after the purchase. Case 261.,Neutral
+262,The instructions were clear and the result was excellent. Case 262.,Positive
+263,The interface froze several times during review. Case 263.,Negative
+264,The dataset includes product and support messages. Case 264.,Neutral
+265,I love how easy this product is to use. Case 265.,Positive
+266,The app crashed before I could finish my work. Case 266.,Negative
+267,The order was delivered yesterday afternoon. Case 267.,Neutral
+268,The support team answered quickly and fixed my issue. Case 268.,Positive
+269,Customer support did not respond to my complaint. Case 269.,Negative
+270,The account was created using an email address. Case 270.,Neutral
+271,The dashboard feels fast, polished, and reliable. Case 271.,Positive
+272,The product stopped working after one day. Case 272.,Negative
+273,The user opened the settings page at noon. Case 273.,Neutral
+274,This feature saves me time every single day. Case 274.,Positive
+275,The checkout process was confusing and slow. Case 275.,Negative
+276,The file contains three columns and one header row. Case 276.,Neutral
+277,The package arrived early and everything worked perfectly. Case 277.,Positive
+278,The delivery was late and the box was damaged. Case 278.,Negative
+279,The meeting is scheduled for Friday morning. Case 279.,Neutral
+280,I would happily recommend this service to my team. Case 280.,Positive
+281,I am disappointed with the poor battery life. Case 281.,Negative
+282,The device is available in black and silver. Case 282.,Neutral
+283,The latest update made the workflow much smoother. Case 283.,Positive
+284,The report exported with missing information. Case 284.,Negative
+285,The invoice was generated after the purchase. Case 285.,Neutral
+286,The instructions were clear and the result was excellent. Case 286.,Positive
+287,The interface froze several times during review. Case 287.,Negative
+288,The dataset includes product and support messages. Case 288.,Neutral
+289,I love how easy this product is to use. Case 289.,Positive
+290,The app crashed before I could finish my work. Case 290.,Negative
+291,The order was delivered yesterday afternoon. Case 291.,Neutral
+292,The support team answered quickly and fixed my issue. Case 292.,Positive
+293,Customer support did not respond to my complaint. Case 293.,Negative
+294,The account was created using an email address. Case 294.,Neutral
+295,The dashboard feels fast, polished, and reliable. Case 295.,Positive
+296,The product stopped working after one day. Case 296.,Negative
+297,The user opened the settings page at noon. Case 297.,Neutral
+298,This feature saves me time every single day. Case 298.,Positive
+299,The checkout process was confusing and slow. Case 299.,Negative
+300,The file contains three columns and one header row. Case 300.,Neutral
+301,The package arrived early and everything worked perfectly. Case 301.,Positive
+302,The delivery was late and the box was damaged. Case 302.,Negative
+303,The meeting is scheduled for Friday morning. Case 303.,Neutral
+304,I would happily recommend this service to my team. Case 304.,Positive
+305,I am disappointed with the poor battery life. Case 305.,Negative
+306,The device is available in black and silver. Case 306.,Neutral
+307,The latest update made the workflow much smoother. Case 307.,Positive
+308,The report exported with missing information. Case 308.,Negative
+309,The invoice was generated after the purchase. Case 309.,Neutral
+310,The instructions were clear and the result was excellent. Case 310.,Positive
+311,The interface froze several times during review. Case 311.,Negative
+312,The dataset includes product and support messages. Case 312.,Neutral
+313,I love how easy this product is to use. Case 313.,Positive
+314,The app crashed before I could finish my work. Case 314.,Negative
+315,The order was delivered yesterday afternoon. Case 315.,Neutral
+316,The support team answered quickly and fixed my issue. Case 316.,Positive
+317,Customer support did not respond to my complaint. Case 317.,Negative
+318,The account was created using an email address. Case 318.,Neutral
+319,The dashboard feels fast, polished, and reliable. Case 319.,Positive
+320,The product stopped working after one day. Case 320.,Negative
+321,The user opened the settings page at noon. Case 321.,Neutral
+322,This feature saves me time every single day. Case 322.,Positive
+323,The checkout process was confusing and slow. Case 323.,Negative
+324,The file contains three columns and one header row. Case 324.,Neutral
+325,The package arrived early and everything worked perfectly. Case 325.,Positive
+326,The delivery was late and the box was damaged. Case 326.,Negative
+327,The meeting is scheduled for Friday morning. Case 327.,Neutral
+328,I would happily recommend this service to my team. Case 328.,Positive
+329,I am disappointed with the poor battery life. Case 329.,Negative
+330,The device is available in black and silver. Case 330.,Neutral
+331,The latest update made the workflow much smoother. Case 331.,Positive
+332,The report exported with missing information. Case 332.,Negative
+333,The invoice was generated after the purchase. Case 333.,Neutral
+334,The instructions were clear and the result was excellent. Case 334.,Positive
+335,The interface froze several times during review. Case 335.,Negative
+336,The dataset includes product and support messages. Case 336.,Neutral
+337,I love how easy this product is to use. Case 337.,Positive
+338,The app crashed before I could finish my work. Case 338.,Negative
+339,The order was delivered yesterday afternoon. Case 339.,Neutral
+340,The support team answered quickly and fixed my issue. Case 340.,Positive
+341,Customer support did not respond to my complaint. Case 341.,Negative
+342,The account was created using an email address. Case 342.,Neutral
+343,The dashboard feels fast, polished, and reliable. Case 343.,Positive
+344,The product stopped working after one day. Case 344.,Negative
+345,The user opened the settings page at noon. Case 345.,Neutral
+346,This feature saves me time every single day. Case 346.,Positive
+347,The checkout process was confusing and slow. Case 347.,Negative
+348,The file contains three columns and one header row. Case 348.,Neutral
+349,The package arrived early and everything worked perfectly. Case 349.,Positive
+350,The delivery was late and the box was damaged. Case 350.,Negative
+351,The meeting is scheduled for Friday morning. Case 351.,Neutral
+352,I would happily recommend this service to my team. Case 352.,Positive
+353,I am disappointed with the poor battery life. Case 353.,Negative
+354,The device is available in black and silver. Case 354.,Neutral
+355,The latest update made the workflow much smoother. Case 355.,Positive
+356,The report exported with missing information. Case 356.,Negative
+357,The invoice was generated after the purchase. Case 357.,Neutral
+358,The instructions were clear and the result was excellent. Case 358.,Positive
+359,The interface froze several times during review. Case 359.,Negative
+360,The dataset includes product and support messages. Case 360.,Neutral
+361,I love how easy this product is to use. Case 361.,Positive
+362,The app crashed before I could finish my work. Case 362.,Negative
+363,The order was delivered yesterday afternoon. Case 363.,Neutral
+364,The support team answered quickly and fixed my issue. Case 364.,Positive
+365,Customer support did not respond to my complaint. Case 365.,Negative
+366,The account was created using an email address. Case 366.,Neutral
+367,The dashboard feels fast, polished, and reliable. Case 367.,Positive
+368,The product stopped working after one day. Case 368.,Negative
+369,The user opened the settings page at noon. Case 369.,Neutral
+370,This feature saves me time every single day. Case 370.,Positive
+371,The checkout process was confusing and slow. Case 371.,Negative
+372,The file contains three columns and one header row. Case 372.,Neutral
+373,The package arrived early and everything worked perfectly. Case 373.,Positive
+374,The delivery was late and the box was damaged. Case 374.,Negative
+375,The meeting is scheduled for Friday morning. Case 375.,Neutral
+376,I would happily recommend this service to my team. Case 376.,Positive
+377,I am disappointed with the poor battery life. Case 377.,Negative
+378,The device is available in black and silver. Case 378.,Neutral
+379,The latest update made the workflow much smoother. Case 379.,Positive
+380,The report exported with missing information. Case 380.,Negative
+381,The invoice was generated after the purchase. Case 381.,Neutral
+382,The instructions were clear and the result was excellent. Case 382.,Positive
+383,The interface froze several times during review. Case 383.,Negative
+384,The dataset includes product and support messages. Case 384.,Neutral
+385,I love how easy this product is to use. Case 385.,Positive
+386,The app crashed before I could finish my work. Case 386.,Negative
+387,The order was delivered yesterday afternoon. Case 387.,Neutral
+388,The support team answered quickly and fixed my issue. Case 388.,Positive
+389,Customer support did not respond to my complaint. Case 389.,Negative
+390,The account was created using an email address. Case 390.,Neutral
+391,The dashboard feels fast, polished, and reliable. Case 391.,Positive
+392,The product stopped working after one day. Case 392.,Negative
+393,The user opened the settings page at noon. Case 393.,Neutral
+394,This feature saves me time every single day. Case 394.,Positive
+395,The checkout process was confusing and slow. Case 395.,Negative
+396,The file contains three columns and one header row. Case 396.,Neutral
+397,The package arrived early and everything worked perfectly. Case 397.,Positive
+398,The delivery was late and the box was damaged. Case 398.,Negative
+399,The meeting is scheduled for Friday morning. Case 399.,Neutral
+400,I would happily recommend this service to my team. Case 400.,Positive
+401,I am disappointed with the poor battery life. Case 401.,Negative
+402,The device is available in black and silver. Case 402.,Neutral
+403,The latest update made the workflow much smoother. Case 403.,Positive
+404,The report exported with missing information. Case 404.,Negative
+405,The invoice was generated after the purchase. Case 405.,Neutral
+406,The instructions were clear and the result was excellent. Case 406.,Positive
+407,The interface froze several times during review. Case 407.,Negative
+408,The dataset includes product and support messages. Case 408.,Neutral
+409,I love how easy this product is to use. Case 409.,Positive
+410,The app crashed before I could finish my work. Case 410.,Negative
+411,The order was delivered yesterday afternoon. Case 411.,Neutral
+412,The support team answered quickly and fixed my issue. Case 412.,Positive
+413,Customer support did not respond to my complaint. Case 413.,Negative
+414,The account was created using an email address. Case 414.,Neutral
+415,The dashboard feels fast, polished, and reliable. Case 415.,Positive
+416,The product stopped working after one day. Case 416.,Negative
+417,The user opened the settings page at noon. Case 417.,Neutral
+418,This feature saves me time every single day. Case 418.,Positive
+419,The checkout process was confusing and slow. Case 419.,Negative
+420,The file contains three columns and one header row. Case 420.,Neutral
+421,The package arrived early and everything worked perfectly. Case 421.,Positive
+422,The delivery was late and the box was damaged. Case 422.,Negative
+423,The meeting is scheduled for Friday morning. Case 423.,Neutral
+424,I would happily recommend this service to my team. Case 424.,Positive
+425,I am disappointed with the poor battery life. Case 425.,Negative
+426,The device is available in black and silver. Case 426.,Neutral
+427,The latest update made the workflow much smoother. Case 427.,Positive
+428,The report exported with missing information. Case 428.,Negative
+429,The invoice was generated after the purchase. Case 429.,Neutral
+430,The instructions were clear and the result was excellent. Case 430.,Positive
+431,The interface froze several times during review. Case 431.,Negative
+432,The dataset includes product and support messages. Case 432.,Neutral
+433,I love how easy this product is to use. Case 433.,Positive
+434,The app crashed before I could finish my work. Case 434.,Negative
+435,The order was delivered yesterday afternoon. Case 435.,Neutral
+436,The support team answered quickly and fixed my issue. Case 436.,Positive
+437,Customer support did not respond to my complaint. Case 437.,Negative
+438,The account was created using an email address. Case 438.,Neutral
+439,The dashboard feels fast, polished, and reliable. Case 439.,Positive
+440,The product stopped working after one day. Case 440.,Negative
+441,The user opened the settings page at noon. Case 441.,Neutral
+442,This feature saves me time every single day. Case 442.,Positive
+443,The checkout process was confusing and slow. Case 443.,Negative
+444,The file contains three columns and one header row. Case 444.,Neutral
+445,The package arrived early and everything worked perfectly. Case 445.,Positive
+446,The delivery was late and the box was damaged. Case 446.,Negative
+447,The meeting is scheduled for Friday morning. Case 447.,Neutral
+448,I would happily recommend this service to my team. Case 448.,Positive
+449,I am disappointed with the poor battery life. Case 449.,Negative
+450,The device is available in black and silver. Case 450.,Neutral
+451,The latest update made the workflow much smoother. Case 451.,Positive
+452,The report exported with missing information. Case 452.,Negative
+453,The invoice was generated after the purchase. Case 453.,Neutral
+454,The instructions were clear and the result was excellent. Case 454.,Positive
+455,The interface froze several times during review. Case 455.,Negative
+456,The dataset includes product and support messages. Case 456.,Neutral
+457,I love how easy this product is to use. Case 457.,Positive
+458,The app crashed before I could finish my work. Case 458.,Negative
+459,The order was delivered yesterday afternoon. Case 459.,Neutral
+460,The support team answered quickly and fixed my issue. Case 460.,Positive
+461,Customer support did not respond to my complaint. Case 461.,Negative
+462,The account was created using an email address. Case 462.,Neutral
+463,The dashboard feels fast, polished, and reliable. Case 463.,Positive
+464,The product stopped working after one day. Case 464.,Negative
+465,The user opened the settings page at noon. Case 465.,Neutral
+466,This feature saves me time every single day. Case 466.,Positive
+467,The checkout process was confusing and slow. Case 467.,Negative
+468,The file contains three columns and one header row. Case 468.,Neutral
+469,The package arrived early and everything worked perfectly. Case 469.,Positive
+470,The delivery was late and the box was damaged. Case 470.,Negative
+471,The meeting is scheduled for Friday morning. Case 471.,Neutral
+472,I would happily recommend this service to my team. Case 472.,Positive
+473,I am disappointed with the poor battery life. Case 473.,Negative
+474,The device is available in black and silver. Case 474.,Neutral
+475,The latest update made the workflow much smoother. Case 475.,Positive
+476,The report exported with missing information. Case 476.,Negative
+477,The invoice was generated after the purchase. Case 477.,Neutral
+478,The instructions were clear and the result was excellent. Case 478.,Positive
+479,The interface froze several times during review. Case 479.,Negative
+480,The dataset includes product and support messages. Case 480.,Neutral
+481,I love how easy this product is to use. Case 481.,Positive
+482,The app crashed before I could finish my work. Case 482.,Negative
+483,The order was delivered yesterday afternoon. Case 483.,Neutral
+484,The support team answered quickly and fixed my issue. Case 484.,Positive
+485,Customer support did not respond to my complaint. Case 485.,Negative
+486,The account was created using an email address. Case 486.,Neutral
+487,The dashboard feels fast, polished, and reliable. Case 487.,Positive
+488,The product stopped working after one day. Case 488.,Negative
+489,The user opened the settings page at noon. Case 489.,Neutral
+490,This feature saves me time every single day. Case 490.,Positive
+491,The checkout process was confusing and slow. Case 491.,Negative
+492,The file contains three columns and one header row. Case 492.,Neutral
+493,The package arrived early and everything worked perfectly. Case 493.,Positive
+494,The delivery was late and the box was damaged. Case 494.,Negative
+495,The meeting is scheduled for Friday morning. Case 495.,Neutral
+496,I would happily recommend this service to my team. Case 496.,Positive
+497,I am disappointed with the poor battery life. Case 497.,Negative
+498,The device is available in black and silver. Case 498.,Neutral
+499,The latest update made the workflow much smoother. Case 499.,Positive
+500,The report exported with missing information. Case 500.,Negative
